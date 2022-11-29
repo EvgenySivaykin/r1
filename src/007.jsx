@@ -114,7 +114,7 @@ function App() {
     <div className="App">
       <div className="App-header">
         {/* <div style={{form: form ? 'apskr' : 'kvadr'}}></div> */}
-        <div style={{'border-radius': form ? '50%' : '0', width: '100px', height: '100px', backgroundColor: '#61dafb'}}></div>
+        <div style={{borderRadius: form ? '50%' : '0', width: '100px', height: '100px', backgroundColor: '#61dafb'}}></div>
         <button onClick={change}>Change form</button>
       </div>
     </div>

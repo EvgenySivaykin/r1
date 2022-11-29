@@ -83,19 +83,25 @@
     }
 }
 
-// .bin {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 80%;
-//     .sq {
-//         width: 100px;
-//         height: 100px;
-//         margin: 10px;
-//         border: 1 px dashed grey;
-//         &.blue {
-//             background-color: skyblue;
-//             border-color: skyblue;
-//         }
-//     }
-// } 
+.bin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+    .sq {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        border: 1px dashed gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: monospace;
+        &.blue {
+            background-color: skyblue;
+            border-color: skyblue;
+        }
+    }
+} 
